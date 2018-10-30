@@ -291,7 +291,9 @@ Notes:
 Returns:
     (tuple): tuple containing:
 
-        servers(list): servers to use.
+        servers(list): servers to use. If there are more information. It should
+        goes here.
+        
         msg (str): logging message string.
 ```
 [reference link](https://stackoverflow.com/questions/29221551/can-sphinx-napoleon-document-function-returning-multiple-arguments)  
