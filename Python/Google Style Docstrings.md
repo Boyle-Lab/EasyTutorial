@@ -1,6 +1,6 @@
 # Google Style Docstrings 
-- [Google Style Docstrings](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings)
-- [EXAMPLES](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html):
+## [Google Style Docstrings](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings)
+## [EXAMPLES](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html):
 ```python
 # -*- coding: utf-8 -*-
 """Example Google style docstrings.
@@ -285,8 +285,8 @@ class ExampleClass(object):
 
 ```
 Notes:
-	1. `:obj:str` Sphinx documentation will contain a link to the `str` object in the standard Python documentation
-	2. If `Returns` multiple variables
+1. `:obj:str` Sphinx documentation will contain a link to the `str` object in the standard Python documentation  
+2. If `Returns` multiple variables
 ```python
 Returns:
     (tuple): tuple containing:
@@ -294,6 +294,7 @@ Returns:
         servers(list): servers to use.
         msg (str): logging message string.
 ```
-
-- [How our docs will look like on docs page](https://bwanamarko.alwaysdata.net/napoleon/format_exception.html)
+[reference link](https://stackoverflow.com/questions/29221551/can-sphinx-napoleon-document-function-returning-multiple-arguments)  
+  
+## [How our docs will look like on docs page](https://bwanamarko.alwaysdata.net/napoleon/format_exception.html)
 
